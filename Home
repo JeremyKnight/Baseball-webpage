@@ -9,6 +9,6 @@
      HTML.
    </p>
   <!added image>
-  <img src="\unamed.jpg" alt="Jeremy Knight">
+  <img src=" \unamed.jpg" alt="Jeremy Knight">
  </body>
 </html>
