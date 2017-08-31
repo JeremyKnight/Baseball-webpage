@@ -11,16 +11,19 @@ div {
 */
 
 body {
+	/*
 	background-image: url(field.jpg);
-	background-color: #26734d;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	*/
+  	
   	color: white;  
   	text-shadow: 2px 2px #000000;	
+  	background-color: #26734d;
 }
 
 h1 {
@@ -29,7 +32,7 @@ h1 {
 }
 
 p {
-	font-size: 400;
+	font-size: 400%;
 	text-align: center;
 }
 h2 {
@@ -51,10 +54,23 @@ h3 {
     margin: 25px;
     
 }
-img {
+#bb {
 	style-text: white;
 	display: block;
 	margin: auto;
 	height: 200px;
 	width: 200px;
 }
+
+#background {
+	max-width: 100%;
+	top: 0px;
+	z-index: -1;
+	margin-top: 0px;
+	height: auto;
+	
+}
+
+
+
+
